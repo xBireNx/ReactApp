@@ -1,0 +1,3 @@
+react.ref
+- we use react.createref method to collect current values of any elements form document object
+ module. It is only applicable for class based component.

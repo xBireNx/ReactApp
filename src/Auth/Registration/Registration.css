@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    background-color: #DD7672;
+}
+.form-box{
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    padding: 5px;
+}
+.form-box h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+.form-box form{
+    margin-top: 50px;
+}
+.form-box form input{
+    margin: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    height: 28px;
+    border-radius: 10px;
+    padding: 15px;
+}
