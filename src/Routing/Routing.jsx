@@ -9,6 +9,8 @@ import Cart from '../Product/Cart/Cart'
 import Home from '../Component/Home'
 import Checkout from '../Component/Checkout/Checkout'
 import Order from '../Component/Order/Order'
+import Footer from '../Layout/Footer/Footer'
+import Login from '../Auth/Login/Login'
 export default function Routing() {
     return (
         <div>
@@ -26,7 +28,9 @@ export default function Routing() {
                     <Route exact path='/Cart' component={Cart}/>
                     <Route exact path='/Checkout' component={Checkout}/>
                     <Route exact path='/Order' component={Order}/>
+                    <Route exact path='/Login' component={Login}/>
                 </Switch>
+                <Footer/>
             </BrowserRouter>
         </div>
     )

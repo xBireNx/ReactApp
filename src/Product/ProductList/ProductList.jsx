@@ -16,7 +16,7 @@ export default function ProductList({ match }) {
   }, [DispatchMethod]);
   return (
     <div>
-      <div className="container py-5">
+      <div className="container py-5" style={{background:"rgb(72, 255, 170)"}}>
 
       <div className="row">
         {ProductCategoryw.Specific_CategoryData.map((e) => (

@@ -23,7 +23,7 @@ export default function Navii() {
           </Card>
           </div>
         </div>
-        <Navbar.Brand style={{fontWeight:'bold' , fontSize: '25px'}} href="#home">BireN</Navbar.Brand>
+        <Navbar.Brand style={{fontWeight:'bold' , fontSize: '25px'}} href="/Home">BireN</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

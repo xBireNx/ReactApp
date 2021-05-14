@@ -1,0 +1,44 @@
+.catestyle{
+    font-weight: bolder;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+    width: 210px;
+    padding-bottom: 5px;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.card-style{
+    background-color: rgb(136, 36, 202);
+    margin: 15px;
+    align-items: center;
+    height: 80px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 10px;
+}
+.card-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: coral;
+    text-transform: uppercase;
+}
+.card-link:hover{
+    color: rgb(255, 93, 34);
+}
+
+.footer-color{
+    background-color: rgb(220, 50, 20);
+    height: 80px;
+    width: 100%;
+}
+
+.footer-copyright{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.footer-copyright a{
+    text-decoration: none;
+    color: rgb(41, 0, 22);
+}
