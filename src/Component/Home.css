@@ -10,11 +10,12 @@
 
 .card-style{
     background-color: rgb(136, 36, 202);
-    margin: 15px;
+    margin: 15px !important;
     align-items: center;
-    height: 80px;
+    height: 80px !important;
     border-radius: 10px 10px 10px 10px;
     padding-top: 10px;
+    margin-bottom: 60px !important;
 }
 .card-link{
     text-decoration: none;

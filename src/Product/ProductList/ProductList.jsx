@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import { useDispatch, useSelector } from "react-redux";
 import { subcatagory } from "../../Action/ProductAction";
 import { Card,Container,Row } from 'react-bootstrap';
+import './ProductList.css'
 
 export default function ProductList({ match }) {
   const cdetails = match.params.cname;

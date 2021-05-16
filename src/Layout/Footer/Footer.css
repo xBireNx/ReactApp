@@ -1,0 +1,8 @@
+.footer-bootom{
+    position: fixed;    
+    bottom: 0;
+    background-color: chocolate;
+    width: 98.5%;
+    border-radius: 10px;
+    margin-top: 50px !important;
+}
